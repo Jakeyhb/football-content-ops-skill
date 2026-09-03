@@ -1,15 +1,15 @@
 ---
-name: xhs-football-content-ops
+name: football-content-ops
 description: >-
-  End-to-end operation methodology for a Chinese football-content Xiaohongshu + Douyin
-  account (@bawbaw 足球观察员). From topic to verified content, card design, per-team
-  color theming, a fixed IP mascot, and publish/record. Use when 发一篇, 做图卡, 按队换色,
-  做封面, 发小红书, 发抖音, 记 FlowUs, or 复盘.
+  End-to-end content-operation methodology for a Chinese football-content account
+  (@bawbaw 足球观察员), unified across Xiaohongshu · Douyin · FlowUs. From topic to
+  verified content, card design, per-team color theming, a fixed IP mascot, and
+  publish/record. Use when 发一篇, 做图卡, 按队换色, 做封面, 发小红书, 发抖音, 记 FlowUs, or 复盘.
 ---
 
-# 足球观察员 · 全流程运营 Skill
+# 足球观察员 · 内容运营全流程 Skill
 
-一套把「足球快讯/赛前预告」从选题到发布的完整方法论 + 可复用资产。目标是：**内容硬朗、主页统一、数据不翻车、发布零踩坑**。
+一套把「足球快讯/赛前预告」从选题到发布的**统一方法论**（小红书 + 抖音 + FlowUs 一套通吃）+ 可复用资产。目标是：**内容硬朗、主页统一、数据不翻车、发布零踩坑**。
 
 ## 一句话
 选题 → 结构 → 视觉（按队换色 + 固定 IP 小夜鹰 + 大字号海报卡）→ 发布（小红书 / 抖音 / FlowUs）→ 复盘。

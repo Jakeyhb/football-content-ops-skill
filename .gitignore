@@ -1,0 +1,23 @@
+# 凭据 / 会话 / 本地文件
+**/session.json
+**/.credentials.yaml
+**/*credential*
+.env
+!**/.env.example
+
+# 运行产物 / 缓存
+__pycache__/
+*.pyc
+.DS_Store
+/tmp/
+*.tmp
+/图集-*.png
+/douyin-*.png
+*.log
+
+# 素材（大图/素材，可自行补充）
+**/素材-*.jpg
+
+# 本地运营数据（不公开）
+/workbench/
+/drafts/

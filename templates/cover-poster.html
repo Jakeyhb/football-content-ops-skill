@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>封面母版（球场/实拍海报）</title>
+  <!-- 用法：把球场/球员图放到同目录，改 .photo src；改内容文字。自包含，无需主题 css。 -->
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{width:1080px;height:1440px;overflow:hidden;background:#14161A;color:#fff;font-family:"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;-webkit-font-smoothing:antialiased}
+    .artboard{position:relative;width:1080px;height:1440px;overflow:hidden;background:#14161A}
+    .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;z-index:1;filter:saturate(1.04) contrast(1.04)}
+    .scrim{position:absolute;inset:0;z-index:2;background:linear-gradient(100deg,rgba(10,14,18,.94) 0%,rgba(10,14,18,.82) 34%,rgba(10,14,18,.22) 60%,rgba(10,14,18,.06) 100%),linear-gradient(180deg,transparent 58%,rgba(8,12,16,.9) 100%)}
+    .pad{position:relative;z-index:3;height:100%;padding:45px 60px 40px 74px;display:flex;flex-direction:column}
+    .topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:44px}
+    .hwg{display:inline-flex;align-items:center;gap:10px;font-size:26px;font-weight:800;letter-spacing:.16em;color:#C9A227}
+    .hwg i{width:8px;height:8px;background:#C9A227;display:block;transform:rotate(45deg)}
+    .pager{font-size:26px;color:#D8DEE6;letter-spacing:.14em;font-weight:700}
+    .hook{font-size:128px;font-weight:900;line-height:1.05;color:#fff;text-shadow:0 12px 40px rgba(0,0,0,.6),0 3px 10px rgba(0,0,0,.5)}
+    .hook em{font-style:normal;color:#C9A227}
+    .meta{margin-top:28px;font-size:44px;font-weight:700;color:#EAF2F8;line-height:1.4;text-shadow:0 4px 16px rgba(0,0,0,.6)}
+    .meta b{color:#C9A227}
+    .facts{display:flex;gap:16px;flex-wrap:wrap;margin-top:34px}
+    .pill{display:inline-flex;align-items:center;gap:12px;border:2px solid #C9A227;color:#fff;background:rgba(20,22,26,.5);border-radius:6px;padding:13px 26px;font-size:32px;font-weight:800}
+    .pill .lab{color:#D8C89A}
+    .strip{margin-top:34px;width:500px;height:10px;border-radius:999px;background:linear-gradient(90deg,#C9A227,#1B2A4A)}
+    .grow{flex:1}
+    .footer{display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:2px solid rgba(255,255,255,.2)}
+    .brand{font-size:26px;letter-spacing:.26em;color:#fff;font-weight:800}
+    .hint{display:inline-flex;align-items:center;gap:10px;font-size:26px;color:#C9A227;font-weight:700}
+    .arrow{width:26px;height:12px;fill:none;stroke:#C9A227;stroke-width:3}
+    .ip-owl{position:absolute;right:60px;bottom:96px;width:150px;z-index:4}
+  </style>
+</head>
+<body>
+  <div class="artboard">
+    <!-- 替换为你的球场/球员图 -->
+    <img class="photo" src="素材-球场.jpg" alt="">
+    <div class="scrim"></div>
+    <div class="pad">
+      <div class="topbar">
+        <div class="hwg"><i></i> 联赛 · 第N轮 · 日期</div>
+        <div class="pager">01 / 04</div>
+      </div>
+      <h1 class="hook">主队 vs 客队</h1>
+      <p class="meta"><b>一次看点</b><br>一句立场</p>
+      <div class="facts">
+        <span class="pill"><span class="lab">时间</span>日期</span>
+        <span class="pill"><span class="lab">场馆</span>球场</span>
+        <span class="pill"><span class="lab">看点</span>关键词</span>
+      </div>
+      <div class="strip"></div>
+      <div class="grow"></div>
+      <div class="footer">
+        <div class="brand">BAWBAW</div>
+        <div class="hint">向左滑 <svg class="arrow" viewBox="0 0 28 12"><path d="M1 6h24M19 1l6 5-6 5"/></svg></div>
+      </div>
+    </div>
+    <img class="ip-owl" src="../assets/ip/night-owl-transparent.png" alt="">
+  </div>
+</body>
+</html>

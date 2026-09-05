@@ -44,6 +44,7 @@ description: >-
 | 03 MY TAKE | 立场 | 观点 + 关键对位 |
 | 04 KEY MATCHUP | 看点 | 明星对位 / 悬念 |
 
+> 两条线：① 比赛前瞻（硬朗信息卡，本小节）；② **战术分析/数据复盘**（tiny type 编辑风 + 足球图型 + 赢家主色，见 `references/tactical-analysis.md`，模板 `templates/tactical-card.html`）。战术线必须**先 web_search 核验数据**（比分/进球者/射门/xG），拿不到坐标/分钟时标注"示意"。
 - 规格 **1080×1440**，`python3 scripts/xhs-cover.py render --html … --out …` 渲染。
 - **大字号**：标题 ~112px、小标题 ~50px、正文 ~44px、标签 ~36px（比默认大）。
 - **图卡里不要写比分/数据**（容易错、难改）——把数字都放进正文/避免，或只写定性词。这样数据错只改文案、不动图。
